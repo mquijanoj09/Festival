@@ -1,0 +1,108 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: "Bebas Neue", sans-serif;
+  color: #ffffff;
+  background-color: #1b1b1b;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000000;
+}
+
+header .logo {
+  font-size: 24px;
+  color: #ff3b3b;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #ff3b3b;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url("../images/banner.jpg") no-repeat center center/cover;
+  color: #ffffff;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.hero .cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: #ff3b3b;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.3s;
+}
+
+.hero .cta-button:hover {
+  background-color: #d12f2f;
+}
+
+/* Sponsors Section */
+.sponsors {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #333333;
+}
+
+.sponsors h2 {
+  font-size: 36px;
+}
+
+.sponsors .sponsor-logos img {
+  width: 100px;
+  margin: 10px;
+}
+
+/* Location Section */
+.location {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.location img {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
