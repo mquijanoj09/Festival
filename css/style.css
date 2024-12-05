@@ -92,12 +92,39 @@ header nav ul li a:hover {
 .location {
   padding: 50px 20px;
   text-align: center;
+  background-color: #262626;
+}
+
+.location h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.location .map-container {
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .location img {
-  width: 80%;
-  max-width: 600px;
-  margin: 20px 0;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.location .map-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #ff3b3b;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.location .map-link:hover {
+  color: #d12f2f;
 }
 
 footer {

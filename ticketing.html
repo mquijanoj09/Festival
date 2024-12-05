@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ticketing - Rock Fest 2024</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -22,19 +26,39 @@
     <main>
       <section class="ticketing">
         <h1>Get Your Tickets</h1>
-        <p>Choose your ticket type:</p>
         <div class="ticket-options">
-          <div class="ticket">
-            <h2>General Admission</h2>
-            <p>Access to all areas.</p>
-            <p><strong>$50/day</strong></p>
-            <a href="#" class="cta-button">Buy Now</a>
+          <div class="ticket-type">
+            <h2>Day Pass</h2>
+            <p class="price">$50</p>
+            <ul>
+              <li>Access to all shows for one day</li>
+              <li>Food court access</li>
+              <li>Free parking</li>
+            </ul>
+            <button class="cta-button">Buy Day Pass</button>
           </div>
-          <div class="ticket">
+          <div class="ticket-type featured">
+            <h2>Full Festival Pass</h2>
+            <p class="price">$120</p>
+            <ul>
+              <li>Access to all 3 days</li>
+              <li>VIP seating area</li>
+              <li>Food court access</li>
+              <li>Free parking</li>
+              <li>Festival T-shirt</li>
+            </ul>
+            <button class="cta-button">Buy Festival Pass</button>
+          </div>
+          <div class="ticket-type">
             <h2>VIP Pass</h2>
-            <p>Exclusive access and perks.</p>
-            <p><strong>$120/day</strong></p>
-            <a href="#" class="cta-button">Buy Now</a>
+            <p class="price">$200</p>
+            <ul>
+              <li>All Festival Pass benefits</li>
+              <li>Backstage access</li>
+              <li>Meet & Greet opportunities</li>
+              <li>Exclusive VIP lounge</li>
+            </ul>
+            <button class="cta-button">Buy VIP Pass</button>
           </div>
         </div>
       </section>
